@@ -3980,7 +3980,7 @@ textarea.form-control-lg {
 }
 #logo img
 {
- 
+ display: block !important;
   position: relative;
   width: 300px !important;
   height: auto!important;
