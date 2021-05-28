@@ -3980,7 +3980,7 @@ textarea.form-control-lg {
 }
 #logo img
 {
- display: block !important;
+ 
   position: relative;
   width: 300px !important;
   height: auto!important;
@@ -3993,7 +3993,7 @@ textarea.form-control-lg {
  
 .navbar-brand {
     display: block;
-    float:right;
+    float:left !important;
     height:50px;
     font-size:18px;
     line-height:20px;
@@ -4013,6 +4013,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .dropdown-menu {
   position: static;
+  
 }
 
 .navbar-text {
@@ -4062,6 +4063,11 @@ textarea.form-control-lg {
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
+}
+
+@media (min-width: 320px)
+{
+  
 }
 
 @media (min-width: 576px) {
