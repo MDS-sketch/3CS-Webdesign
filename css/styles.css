@@ -3986,7 +3986,7 @@ textarea.form-control-lg {
   height: auto!important;
   bottom: 45px !important;
   right: 100px;
- 
+  
   
 }
 
@@ -4024,7 +4024,7 @@ textarea.form-control-lg {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
+  
 }
 
 .navbar-toggler {
@@ -4065,12 +4065,9 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (min-width: 320px)
-{
-  
-}
 
-@media (min-width: 576px) {
+
+@media (min-width: 320px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
