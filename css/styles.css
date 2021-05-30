@@ -3982,10 +3982,10 @@ textarea.form-control-lg {
 {
  display: block !important;
   position: relative;
-  width: 300px !important;
+  width: 200px !important;
   height: auto!important;
-  bottom: 45px !important;
-  right: 100px;
+  bottom: 15px !important;
+  right: 40px;
   
   
 }
@@ -3993,7 +3993,7 @@ textarea.form-control-lg {
  
 .navbar-brand {
     display: block;
-    float:left !important;
+    float:right !important;
     height:50px;
     font-size:18px;
     line-height:20px;
@@ -4035,6 +4035,7 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
+  
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
